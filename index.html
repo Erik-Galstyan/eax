@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button with Alert</title>
+    <style>
+        body {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .image-container img {
+            width: 600%;
+            max-width: 600px;
+            height: auto;
+        }
+        .button-container {
+            margin-top: 20px; 
+        }
+        .button {
+            padding: 10px 20px;
+            background-color: blue;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to my simple site</h1>
+
+    <div class="image-container">
+        <img src="/home/erik/Downloads/pexels-anjana-c-169994-674010.jpg" alt="Beautiful Image">
+    </div>
+
+    <div class="button-container">
+        <button class="button" onclick="buttonClicked()">Click Me</button>
+    </div>
+
+    <script>
+        function buttonClicked() {
+            alert('Button clicked!');
+        }
+    </script>
+
+</body>
+</html>
